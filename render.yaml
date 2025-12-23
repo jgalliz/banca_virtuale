@@ -8,3 +8,26 @@ services:
       - key: SECRET_KEY
         generateValue: true
 ```
+
+### **STEP 2: Carica su GitHub**
+
+1. Vai su [github.com](https://github.com) e crea un account (se non ce l'hai)
+2. Clicca su "New repository"
+3. Nome: `banca-natale`
+4. Clicca "Create repository"
+5. Carica i 3 file (puoi fare drag & drop direttamente su GitHub)
+
+### **STEP 3: Deploy su Render (GRATIS)**
+
+1. Vai su [render.com](https://render.com) e registrati (puoi usare l'account GitHub)
+2. Clicca su "New +" → "Web Service"
+3. Connetti il tuo repository GitHub `banca-natale`
+4. Render rileva automaticamente i settings da `render.yaml`
+5. Clicca "Create Web Service"
+6. **Aspetta 2-3 minuti** mentre Render installa tutto
+
+### **STEP 4: Pronto! 🎉**
+
+Render ti darà un URL tipo:
+```
+https://banca-natale.onrender.com
